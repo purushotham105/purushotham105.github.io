@@ -1,0 +1,75 @@
+body {
+  font-size: 16px;
+  font-family: 'Oxygen', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/** HEADER **/
+#header-nav {
+  background-color:grey;
+  border-radius: 0;
+  box-sizing: border-box;
+  border-color: black;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 3px solid black !important;
+}
+.navbar-brand h1 { /* Restaurant name */
+  font-family: 'Courier New', Courier, monospace;
+  color: black;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  font-weight: bold; 
+  text-decoration: none;
+
+}
+.navbar-brand{
+  height: auto;
+}
+.text-centre{
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+h2{
+  font-weight: bold;
+}
+h3{
+  font-weight: bold;
+  text-align: center;
+}
+#nav-list {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  border: 1px solid;
+}
+#nav-list:nth-child(3){
+  border-bottom: 0;
+}
+#nav-list li{
+  background: white;
+  border-bottom: 2px solid;
+}
+#nav-list li:nth-child(3){
+  border-bottom: 0;
+}
+#nav-list a {
+  color: black;
+  font-weight: 600;
+  line-height: 8px;
+  text-align: center;
+}
+#nav-list a:hover {
+  background: grey;
+}
+
+#back-to{
+  color: rgb(248, 240, 240);
+  text-shadow: black;
+}
+#menu-tile{
+  background-color: grey;
+  font-weight:bold;
+  padding: 10px 30px 0px 30px;
+}
